@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./mystyle.css">
+    <title>Services</title>
+    <style>
+      @media (prefers-color-scheme: light){
+        body{
+          background-color: lightgrey;
+        }
+        h1{
+          color: black;
+        }
+      }
+
+        @media (prefers-color-scheme: dark){
+        body{
+          background-color: black;
+        }
+        h1{
+          color: lightgray;
+        }
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">Furry Clean Pet Salon & Detailing</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="services.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="registration.html">Registration</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true"></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <h1>Services Page</h1>
+
+   
+<div>
+  <section class="container my-5">
+  <h2 class="text-center mb-4">Our Services</h2>
+  <div class="row text-center">
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Grooming</h5>
+          <p class="card-text">Bath, haircut, and nail trim for all breeds.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Detailing</h5>
+          <p class="card-text">Ear cleaning, teeth brushing, and coat conditioning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card shadow-sm">
+        <div class="card-body">
+          <h5 class="card-title">Spa Packages</h5>
+          <p class="card-text">Luxury treatments for your furry friend.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+     
+</div>
+    <script src="scripts/script.js"></script>
+    <script src="scripts/arrays.js"></script>
+    <script src="scripts/objects.js"></script>
+    <script src="scripts/services.js"></script>
+
+    <form id="serviceForm">
+  <input type="text" id="serviceName" placeholder="Service Name">
+  <input type="text" id="serviceCategory" placeholder="Description">
+  <input type="number" id="servicePrice" placeholder="Price">
+  <button class="submit btn-primary">Register</button>
+  <button type="submit">Cancel</button>
+
+</form>
+
+    <label for="payment">Payment Method:</label>
+<select id="payment">
+  <option value="Cash">Cash App</option>
+  <option value="Credit Card">Credit Card</option>
+  <option value="Mobile Pay">Apple Pay</option>
+</select>
+
+
+<footer class="bg-light text-center py-4 mt-5">
+  <p class="mb-0">&copy; 2025 Furry Clean Pet Salon. All rights reserved.</p>
+  <small>Contact us at <a href="mailto:info@furryclean.com">info@furryclean.com</a></small>
+  </footer>
+
+</body>
+</html>
+
